@@ -53,6 +53,10 @@ app.get('/vikas', (req, res) => {
   res.send('Hello Vikas!')
 })
 
+app.get('/maurya', (req, res) => {
+  res.send('Hello Maurya!')
+})
+
 app.get('/github', (req, res) => {
   res.json(githubData);
 })
